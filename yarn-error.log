@@ -1,0 +1,62 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\MinGW\bin;C:\Program Files\Go\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\src\flutter\bin;C:\Users\Rishav\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\Rishav\AppData\Local\Programs\Python\Python39;C:\Users\Rishav\AppData\Local\Yarn\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\Rishav\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\TDM-GCC-64\bin;C:\Program Files\MySQL\MySQL Shell 8.1\bin;C:\Users\Rishav\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Shell 8.1\bin\;C:\Users\Rishav\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Users\Rishav\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Rishav\AppData\Roaming\npm;C:\Users\Rishav\AppData\Local\Yarn\bin;C:\Program Files\heroku\bin;C:\Program Files\Java\jdk-11.0.14\bin;C:\Windows\System32\cmd.exe;C:\Program Files\Amazon\AWSCLIV2\aws;C:\Program Files\ffmpeg-master-latest-win64-gpl\bin;C:\msys64\mingw64\bin;C:\Users\Rishav\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\Rishav\Desktop\weather\package.json: Unexpected token } in JSON at position 530
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "weather",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "axios": "^0.19.2",
+      "moment": "2.29.4",
+      "react": "^18.2.0",
+      "react-animated-weather": "^4.0.1",
+      "react-dom": "^18.2.0",
+      "react-geolocated": "^3.0.1",
+      "react-live-clock": "^4.0.5",
+      "react-skycons": "^0.7.0",
+    },
+    "devDependencies": {
+      "@types/react": "^18.2.15",
+      "@types/react-dom": "^18.2.7",
+      "@vitejs/plugin-react": "^4.0.3",
+      "eslint": "^8.45.0",
+      "eslint-plugin-react": "^7.32.2",
+      "eslint-plugin-react-hooks": "^4.6.0",
+      "eslint-plugin-react-refresh": "^0.4.3",
+      "vite": "^4.4.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
